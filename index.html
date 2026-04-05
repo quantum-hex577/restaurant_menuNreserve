@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Curry Lab</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1>The Curry Lab</h1>
+  <ul>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#reservation">Reserve</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Luxury Dining Redefined</h1>
+    <p>Modern North Indian • Mughlai Inspired</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu">
+  <h2>Our Menu</h2>
+
+  <div class="menu-category">
+    <h3>Appetizers</h3>
+
+    <div class="card">
+      <h4>Crispy Paneer Tikka Bites 🟢</h4>
+      <p>Marinated paneer cubes grilled to perfection, served with mint chutney.</p>
+      <span>₹220–₹260</span>
+    </div>
+
+    <div class="card">
+      <h4>Chicken Malai Tikka 🍗</h4>
+      <p>Succulent chicken marinated in cream & spices, grilled until tender.</p>
+      <span>₹280–₹350</span>
+    </div>
+  </div>
+
+  <div class="menu-category">
+    <h3>Main Course</h3>
+
+    <div class="card">
+      <h4>Paneer Mushroom Masala 🟢</h4>
+      <p>Rich gravy with paneer & mushrooms in spiced tomato base.</p>
+      <span>₹340–₹400</span>
+    </div>
+
+    <div class="card">
+      <h4>Chicken Changezi 🍗</h4>
+      <p>Bold North Indian curry with rich tomato & spice blend.</p>
+      <span>₹420–₹500</span>
+    </div>
+
+    <div class="card">
+      <h4>Saffron Pulao 🍚</h4>
+      <p>Basmati rice with saffron, dry fruits & whole spices.</p>
+      <span>₹220–₹280</span>
+    </div>
+
+    <div class="card">
+      <h4>Garlic Butter Naan 🫓</h4>
+      <p>Soft naan topped with garlic & butter.</p>
+      <span>₹70–₹110</span>
+    </div>
+  </div>
+
+  <div class="menu-category">
+    <h3>Dessert</h3>
+
+    <div class="card">
+      <h4>Shahi Tukda</h4>
+      <p>Fried bread with saffron syrup & rabri topping.</p>
+      <span>₹220–₹280</span>
+    </div>
+  </div>
+
+  <div class="menu-category">
+    <h3>Beverages</h3>
+
+    <div class="card">
+      <h4>Kesar Badam Milk</h4>
+      <p>Saffron almond milk served chilled.</p>
+      <span>₹150–₹200</span>
+    </div>
+
+    <div class="card">
+      <h4>Khus Sharbat</h4>
+      <p>Refreshing vetiver drink served ice-cold.</p>
+      <span>₹120–₹160</span>
+    </div>
+  </div>
+
+</section>
+
+<!-- RESERVATION -->
+<section id="reservation" class="reservation">
+  <h2>Reserve a Table</h2>
+
+  <form id="form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="date" required>
+    <input type="time" required>
+    <input type="number" placeholder="Guests" required>
+
+    <button type="submit">Book Now</button>
+  </form>
+
+  <p id="msg"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 The Curry Lab</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
