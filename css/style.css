@@ -274,5 +274,22 @@ footer {
   .navbar {
     flex-direction: column;
     gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  /*Logo edits */
+  
+  .logo img {
+  height: 40px;     /* smaller, premium size */
+  width: auto;
+  object-fit: contain;
+  transition: 0.3s;
 }
+
+.logo img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 6px rgba(255,215,0,0.4));
+}
+
