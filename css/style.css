@@ -286,6 +286,7 @@ footer {
   width: auto;
   object-fit: contain;
   transition: 0.3s;
+  display: block;
 }
 
 .logo img:hover {
